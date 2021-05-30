@@ -16,3 +16,10 @@ Document Task - refactor the game.
 
 5.At end of game, the winner will be presented including statistics for the computer and user:
 •	Change the function GetStatistics in Game class to GetWinnerStatistics that print the winner statistics by the score.
+
+
+
+
+
+
+
