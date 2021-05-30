@@ -1,0 +1,18 @@
+Document Task - refactor the game.
+
+1.	user will also have a board:
+•	Need to add another object Board to Game class.
+
+2.	The user's submarines will be either manually placed by user or automatically:
+•	For automatically we can use the function createRandomBoard – that build board automatically.
+•	For manually need to build function in Game class that get from the player  start point (row,col) for submarine and the user get up to 4 options point for end point of the submarine to choose.
+
+3.	The game will be turn based, user turn and computer turn:
+•	Add another Player object that representing the computer statistics.
+•	Change the function RunGame in Game class that manage to by based on turn.
+
+4.	The computer will attack the user’s board:
+•	Add function that the computer get random row and random col, call the function AttemptedToHit in Board class.
+
+5.	At end of game, the winner will be presented including statistics for the computer and user:
+•	Change the function GetStatistics in Game class to GetWinnerStatistics that print the winner statistics by the score.
